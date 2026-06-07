@@ -28,13 +28,10 @@ button{
 button:hover{
     background-color: #ece9ff;
 }
-#table-container{
-    display: flex;
-    flex-direction: column;
-}
 table{
     border-collapse: collapse;
     text-align: center;
+    width: 100%;
 }
 table, td, th{
     border: 1px solid #fff;    
@@ -105,32 +102,54 @@ tr:hover{
     color: #721c24;
     border: 2px solid #dc3545;
 }
+/* Mobile: hide columns */
+#YearOneTable th:nth-child(1),
+#YearOneTable td:nth-child(1),
+#YearTwoTable th:nth-child(1),
+#YearTwoTable td:nth-child(1),
+#YearThreeTable th:nth-child(1),
+#YearThreeTable td:nth-child(1),
 
-/* Extra small phones */
-@media (min-width: 320px) {}
-/* Large phones */
-@media (min-width: 480px) {
-    #YearOneTable th:nth-child(1), #YearTwoTable th:nth-child(1), #YearThreeTable th:nth-child(1){
-        display: none;
-    }
-    #YearOneTable th:nth-child(2), #YearTwoTable th:nth-child(2), #YearThreeTable th:nth-child(2){
-        display: none;
-    }
-    #YearOneTable th:nth-child(4), #YearTwoTable th:nth-child(4), #YearThreeTable th:nth-child(4){
-        display: none;
-    }
-    #YearOneTable td:nth-child(1), #YearTwoTable td:nth-child(1), #YearThreeTable td:nth-child(1){
-        display: none;
-    }
-    #YearOneTable td:nth-child(2), #YearTwoTable td:nth-child(2), #YearThreeTable td:nth-child(2){
-        display: none;
-    }
-    #YearOneTable td:nth-child(4), #YearTwoTable td:nth-child(4), #YearThreeTable td:nth-child(4){
-        display: none;
-    }
+#YearOneTable th:nth-child(2),
+#YearOneTable td:nth-child(2),
+#YearTwoTable th:nth-child(2),
+#YearTwoTable td:nth-child(2),
+#YearThreeTable th:nth-child(2),
+#YearThreeTable td:nth-child(2),
+
+#YearOneTable th:nth-child(4),
+#YearOneTable td:nth-child(4),
+#YearTwoTable th:nth-child(4),
+#YearTwoTable td:nth-child(4),
+#YearThreeTable th:nth-child(4),
+#YearThreeTable td:nth-child(4){
+    display: none;
 }
 /* Tablets */
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+    #YearOneTable th:nth-child(1),
+    #YearOneTable td:nth-child(1),
+    #YearTwoTable th:nth-child(1),
+    #YearTwoTable td:nth-child(1),
+    #YearThreeTable th:nth-child(1),
+    #YearThreeTable td:nth-child(1),
+
+    #YearOneTable th:nth-child(2),
+    #YearOneTable td:nth-child(2),
+    #YearTwoTable th:nth-child(2),
+    #YearTwoTable td:nth-child(2),
+    #YearThreeTable th:nth-child(2),
+    #YearThreeTable td:nth-child(2),
+
+    #YearOneTable th:nth-child(4),
+    #YearOneTable td:nth-child(4),
+    #YearTwoTable th:nth-child(4),
+    #YearTwoTable td:nth-child(4),
+    #YearThreeTable th:nth-child(4),
+    #YearThreeTable td:nth-child(4){
+        display: table-cell;
+    }
+}
 /* Laptops */
 @media (min-width: 992px) {}
 /* Small laptops */
