@@ -45,6 +45,10 @@ function setupYear(selectYear, tableId, totalCredits, YearGPVId, YearGPAPointsId
             document.getElementById(passingCreditsId).style.color = totalPassingCredits < 20 ? "#f00" : "#000";
 
             /*final row calculation*/
+            const Y1PassingCredits = Number(document.getElementById("Y1PassingCredits").textContent);
+            const Y2PassingCredits = Number(document.getElementById("Y2PassingCredits").textContent);
+            const Y3PassingCredits = Number(document.getElementById("Y3PassingCredits").textContent);
+
             const Y1Credits = Number(document.getElementById("Y1Credits").textContent);
             const Y2Credits = Number(document.getElementById("Y2Credits").textContent);
             const Y3Credits = Number(document.getElementById("Y3Credits").textContent);
@@ -57,14 +61,19 @@ function setupYear(selectYear, tableId, totalCredits, YearGPVId, YearGPAPointsId
             const YearTwoGPAPoints = Number(document.getElementById("YearTwoGPAPoints").textContent);
             const YearThreeGPAPoints = Number(document.getElementById("YearThreeGPAPoints").textContent);
 
+            const FinalPassingCredits = Y1PassingCredits+Y2PassingCredits+Y3PassingCredits;
             const FinalGPV = YearOneGPV+YearTwoGPV+YearThreeGPV;
             const FinalGPAPoints = YearOneGPAPoints+YearTwoGPAPoints+YearThreeGPAPoints;
             const FinalCredits = Y1Credits+Y2Credits+Y3Credits;
             const FinalGPA = FinalGPAPoints/FinalCredits;
             
+            document.getElementById("FinalPassingCredits").textContent = FinalPassingCredits.toFixed(2);
             document.getElementById("FinalGPV").textContent = FinalGPV.toFixed(2);
             document.getElementById("FinalGPAPoints").textContent = FinalGPAPoints.toFixed(2);
             document.getElementById("FinalGPA").textContent = FinalGPA.toFixed(2);
+
+            const passingCreditsElement = document.getElementById("FinalPassingCredits");
+            passingCreditsElement.style.color = parseInt(passingCreditsElement.textContent) > 60 ? "#278d27" : "#000";
 
             const message = document.getElementById("message");
             if (FinalGPA >= 3.7) {

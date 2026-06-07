@@ -16,764 +16,764 @@
     <h1>Bachelor of Information Technology</h1>
     <h2>GPA Tracker</h2>
 </header>
+<div>
+    <button type="button" onclick="yearI()" id="btn1">Year I</button>
+    <button type="button" onclick="yearII()" id="btn2">Year II</button>
+    <button type="button" onclick="yearIII()" id="btn3">Year III</button>
+</div>
+<!-- LEVEL I -->
+<table id="YearOneTable">
+    <thead>
+        <tr>
+            <th>Semester</th>
+            <th>Code</th>
+            <th>Name</th>
+            <th>GPA Credits</th>
+            <th>Grade</th>
+            <th>Grade Point Value (GPV)</th>
+            <th>GPA Points (GPV*GPA Credits)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>S1</td>
+            <td>IT1106</td>
+            <td>Information Systems</td>
+            <td class="credits">4</td>
+            <td> 
+                <select class="year1">
+                    <option value="4">A+ (85-100)</option>
+                    <option value="4">A (70-84)</option>
+                    <option value="3.7">A- (65-69)</option>
+                    <option value="3.3">B+ (60-64)</option>
+                    <option value="3">B (55-59)</option>
+                    <option value="2.7">B- (50-54)</option>
+                    <option value="2">C+ (45-49)</option>
+                    <option value="2">C (40-44)</option>
+                    <option value="1.7">C- (35-39)</option>
+                    <option value="1.3">D+ (30-34)</option>
+                    <option value="1">D (25-29)</option>
+                    <option value="0">E (0-24)</option>
+                </select>
+            </td>
+            <td class="gpv"></td>
+            <td class="gpaPoints"></td>
+        </tr>
+        <tr>
+            <td>S1</td>
+            <td>IT1206</td>
+            <td>Computer Systems</td>
+            <td class="credits">3</td>
+            <td> 
+                <select class="year1">
+                    <option value="4">A+ (85-100)</option>
+                    <option value="4">A (70-84)</option>
+                    <option value="3.7">A- (65-69)</option>
+                    <option value="3.3">B+ (60-64)</option>
+                    <option value="3">B (55-59)</option>
+                    <option value="2.7">B- (50-54)</option>
+                    <option value="2">C+ (45-49)</option>
+                    <option value="2">C (40-44)</option>
+                    <option value="1.7">C- (35-39)</option>
+                    <option value="1.3">D+ (30-34)</option>
+                    <option value="1">D (25-29)</option>
+                    <option value="0">E (0-24)</option>
+                </select>
+            </td>
+            <td class="gpv"></td>
+            <td class="gpaPoints"></td>
+        </tr>
+        <tr>
+            <td>S1</td>
+            <td>IT1306</td>
+            <td>Free and Open Source Software for Personal Computing</td>
+            <td class="credits">3</td>
+            <td> 
+                <select class="year1">
+                    <option value="4">A+ (85-100)</option>
+                    <option value="4">A (70-84)</option>
+                    <option value="3.7">A- (65-69)</option>
+                    <option value="3.3">B+ (60-64)</option>
+                    <option value="3">B (55-59)</option>
+                    <option value="2.7">B- (50-54)</option>
+                    <option value="2">C+ (45-49)</option>
+                    <option value="2">C (40-44)</option>
+                    <option value="1.7">C- (35-39)</option>
+                    <option value="1.3">D+ (30-34)</option>
+                    <option value="1">D (25-29)</option>
+                    <option value="0">E (0-24)</option>
+                </select>
+            </td>
+            <td class="gpv"></td>
+            <td class="gpaPoints"></td>
+        </tr>
+        <tr>
+            <td>S1</td>
+            <td>IT1406</td>
+            <td>Introduction to Programming</td>
+            <td class="credits">4</td>
+            <td> 
+                <select class="year1">
+                    <option value="4">A+ (85-100)</option>
+                    <option value="4">A (70-84)</option>
+                    <option value="3.7">A- (65-69)</option>
+                    <option value="3.3">B+ (60-64)</option>
+                    <option value="3">B (55-59)</option>
+                    <option value="2.7">B- (50-54)</option>
+                    <option value="2">C+ (45-49)</option>
+                    <option value="2">C (40-44)</option>
+                    <option value="1.7">C- (35-39)</option>
+                    <option value="1.3">D+ (30-34)</option>
+                    <option value="1">D (25-29)</option>
+                    <option value="0">E (0-24)</option>
+                </select>
+            </td>
+            <td class="gpv"></td>
+            <td class="gpaPoints"></td>
+        </tr>
+        <tr>
+            <td>S1</td>
+            <td>IT1506</td>
+            <td>Fundamentals of Mathematics</td>
+            <td class="credits">1</td>
+            <td> 
+                <select class="year1">
+                    <option value="4">A+ (85-100)</option>
+                    <option value="4">A (70-84)</option>
+                    <option value="3.7">A- (65-69)</option>
+                    <option value="3.3">B+ (60-64)</option>
+                    <option value="3">B (55-59)</option>
+                    <option value="2.7">B- (50-54)</option>
+                    <option value="2">C+ (45-49)</option>
+                    <option value="2">C (40-44)</option>
+                    <option value="1.7">C- (35-39)</option>
+                    <option value="1.3">D+ (30-34)</option>
+                    <option value="1">D (25-29)</option>
+                    <option value="0">E (0-24)</option>
+                </select>
+            </td>
+            <td class="gpv"></td>
+            <td class="gpaPoints"></td>
+        </tr>
+        <tr>
+            <td>S2</td>
+            <td>EN2106</td>
+            <td>Communication Skills I</td>
+            <td class="credits">0</td>
+            <td> 
+                <select class="year1">
+                    <option value="0.0">Pass (40-100)</option>
+                    <option value="0.0">Fail (0-39)</option>
+                </select>
+            </td>
+            <td class="gpv"></td>
+            <td class="gpaPoints"></td>
+        </tr>
+        <tr>
+            <td>S2</td>
+            <td>IT2106</td>
+            <td>Mathematics for Computing I</td>
+            <td class="credits">3</td>
+            <td> 
+                <select class="year1">
+                    <option value="4">A+ (85-100)</option>
+                    <option value="4">A (70-84)</option>
+                    <option value="3.7">A- (65-69)</option>
+                    <option value="3.3">B+ (60-64)</option>
+                    <option value="3">B (55-59)</option>
+                    <option value="2.7">B- (50-54)</option>
+                    <option value="2">C+ (45-49)</option>
+                    <option value="2">C (40-44)</option>
+                    <option value="1.7">C- (35-39)</option>
+                    <option value="1.3">D+ (30-34)</option>
+                    <option value="1">D (25-29)</option>
+                    <option value="0">E (0-24)</option>
+                </select>
+            </td>
+            <td class="gpv"></td>
+            <td class="gpaPoints"></td>
+        </tr>
+        <tr>
+            <td>S2</td>
+            <td>IT2206</td>
+            <td>Fundamentals of Software Engineering</td>
+            <td class="credits">4</td>
+            <td> 
+                <select class="year1">
+                    <option value="4">A+ (85-100)</option>
+                    <option value="4">A (70-84)</option>
+                    <option value="3.7">A- (65-69)</option>
+                    <option value="3.3">B+ (60-64)</option>
+                    <option value="3">B (55-59)</option>
+                    <option value="2.7">B- (50-54)</option>
+                    <option value="2">C+ (45-49)</option>
+                    <option value="2">C (40-44)</option>
+                    <option value="1.7">C- (35-39)</option>
+                    <option value="1.3">D+ (30-34)</option>
+                    <option value="1">D (25-29)</option>
+                    <option value="0">E (0-24)</option>
+                </select>
+            </td>
+            <td class="gpv"></td>
+            <td class="gpaPoints"></td>
+        </tr>
+        <tr>
+            <td>S2</td>
+            <td>IT2306</td>
+            <td>Database Systems</td>
+            <td class="credits">4</td>
+            <td> 
+                <select class="year1">
+                    <option value="4">A+ (85-100)</option>
+                    <option value="4">A (70-84)</option>
+                    <option value="3.7">A- (65-69)</option>
+                    <option value="3.3">B+ (60-64)</option>
+                    <option value="3">B (55-59)</option>
+                    <option value="2.7">B- (50-54)</option>
+                    <option value="2">C+ (45-49)</option>
+                    <option value="2">C (40-44)</option>
+                    <option value="1.7">C- (35-39)</option>
+                    <option value="1.3">D+ (30-34)</option>
+                    <option value="1">D (25-29)</option>
+                    <option value="0">E (0-24)</option>
+                </select>
+            </td>
+            <td class="gpv"></td>
+            <td class="gpaPoints"></td>
+        </tr>
+        <tr>
+            <td>S2</td>
+            <td>IT2406</td>
+            <td>Web Application Development I</td>
+            <td class="credits">4</td>
+            <td> 
+                <select class="year1">
+                    <option value="4">A+ (85-100)</option>
+                    <option value="4">A (70-84)</option>
+                    <option value="3.7">A- (65-69)</option>
+                    <option value="3.3">B+ (60-64)</option>
+                    <option value="3">B (55-59)</option>
+                    <option value="2.7">B- (50-54)</option>
+                    <option value="2">C+ (45-49)</option>
+                    <option value="2">C (40-44)</option>
+                    <option value="1.7">C- (35-39)</option>
+                    <option value="1.3">D+ (30-34)</option>
+                    <option value="1">D (25-29)</option>
+                    <option value="0">E (0-24)</option>
+                </select>
+            </td>
+            <td class="gpv"></td>
+            <td class="gpaPoints"></td>
+        </tr>
+    </tbody>
+</table>
+<!-- LEVEL II -->
+<table id="YearTwoTable">
+    <thead>
+        <tr>
+            <th>Semester</th>
+            <th>Code</th>
+            <th>Name</th>
+            <th>GPA Credits</th>
+            <th>Grade</th>
+            <th>Grade Point Value (GPV)</th>
+            <th>GPA Points (GPV*GPA Credits)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>S3</td>
+            <td>EN3106</td>
+            <td>Communication Skills II</td>
+            <td class="credits">0</td>
+            <td> 
+                <select class="year2">
+                    <option value="0.0">Pass (40-100)</option>
+                    <option value="0.0">Fail (0-39)</option>
+                </select>
+            </td>
+            <td class="gpv"></td>
+            <td class="gpaPoints"></td>
+        </tr>
+        <tr>
+            <td>S3</td>
+            <td>IT3106</td>
+            <td>Object Oriented Analysis & Design</td>
+            <td class="credits">3</td>
+            <td> 
+                <select class="year2">
+                    <option value="4">A+ (85-100)</option>
+                    <option value="4">A (70-84)</option>
+                    <option value="3.7">A- (65-69)</option>
+                    <option value="3.3">B+ (60-64)</option>
+                    <option value="3">B (55-59)</option>
+                    <option value="2.7">B- (50-54)</option>
+                    <option value="2">C+ (45-49)</option>
+                    <option value="2">C (40-44)</option>
+                    <option value="1.7">C- (35-39)</option>
+                    <option value="1.3">D+ (30-34)</option>
+                    <option value="1">D (25-29)</option>
+                    <option value="0">E (0-24)</option>
+                </select>
+            </td>
+            <td class="gpv"></td>
+            <td class="gpaPoints"></td>
+        </tr>
+        <tr>
+            <td>S3</td>
+            <td>IT3206</td>
+            <td>Data Structures and Algorithms</td>
+            <td class="credits">3</td>
+            <td> 
+                <select class="year2">
+                    <option value="4">A+ (85-100)</option>
+                    <option value="4">A (70-84)</option>
+                    <option value="3.7">A- (65-69)</option>
+                    <option value="3.3">B+ (60-64)</option>
+                    <option value="3">B (55-59)</option>
+                    <option value="2.7">B- (50-54)</option>
+                    <option value="2">C+ (45-49)</option>
+                    <option value="2">C (40-44)</option>
+                    <option value="1.7">C- (35-39)</option>
+                    <option value="1.3">D+ (30-34)</option>
+                    <option value="1">D (25-29)</option>
+                    <option value="0">E (0-24)</option>
+                </select>
+            </td>
+            <td class="gpv"></td>
+            <td class="gpaPoints"></td>
+        </tr>
+        <tr>
+            <td>S3</td>
+            <td>IT3306</td>
+            <td>Data Management Systems</td>
+            <td class="credits">3</td>
+            <td> 
+                <select class="year2">
+                    <option value="4">A+ (85-100)</option>
+                    <option value="4">A (70-84)</option>
+                    <option value="3.7">A- (65-69)</option>
+                    <option value="3.3">B+ (60-64)</option>
+                    <option value="3">B (55-59)</option>
+                    <option value="2.7">B- (50-54)</option>
+                    <option value="2">C+ (45-49)</option>
+                    <option value="2">C (40-44)</option>
+                    <option value="1.7">C- (35-39)</option>
+                    <option value="1.3">D+ (30-34)</option>
+                    <option value="1">D (25-29)</option>
+                    <option value="0">E (0-24)</option>
+                </select>
+            </td>
+            <td class="gpv"></td>
+            <td class="gpaPoints"></td>
+        </tr>
+        <tr>
+            <td>S3</td>
+            <td>IT3406</td>
+            <td>Web Application Development II</td>
+            <td class="credits">4</td>
+            <td> 
+                <select class="year2">
+                    <option value="4">A+ (85-100)</option>
+                    <option value="4">A (70-84)</option>
+                    <option value="3.7">A- (65-69)</option>
+                    <option value="3.3">B+ (60-64)</option>
+                    <option value="3">B (55-59)</option>
+                    <option value="2.7">B- (50-54)</option>
+                    <option value="2">C+ (45-49)</option>
+                    <option value="2">C (40-44)</option>
+                    <option value="1.7">C- (35-39)</option>
+                    <option value="1.3">D+ (30-34)</option>
+                    <option value="1">D (25-29)</option>
+                    <option value="0">E (0-24)</option>
+                </select>
+            </td>
+            <td class="gpv"></td>
+            <td class="gpaPoints"></td>
+        </tr>
+        <tr>
+            <td>S4</td>
+            <td>IT4106</td>
+            <td>User Experience Design</td>
+            <td class="credits">3</td>
+            <td> 
+                <select class="year2">
+                    <option value="4">A+ (85-100)</option>
+                    <option value="4">A (70-84)</option>
+                    <option value="3.7">A- (65-69)</option>
+                    <option value="3.3">B+ (60-64)</option>
+                    <option value="3">B (55-59)</option>
+                    <option value="2.7">B- (50-54)</option>
+                    <option value="2">C+ (45-49)</option>
+                    <option value="2">C (40-44)</option>
+                    <option value="1.7">C- (35-39)</option>
+                    <option value="1.3">D+ (30-34)</option>
+                    <option value="1">D (25-29)</option>
+                    <option value="0">E (0-24)</option>
+                </select>
+            </td>
+            <td class="gpv"></td>
+            <td class="gpaPoints"></td>
+        </tr>
+        <tr>
+            <td>S4</td>
+            <td>IT4206</td>
+            <td>Enterprise Application Development</td>
+            <td class="credits">4</td>
+            <td> 
+                <select class="year2">
+                    <option value="4">A+ (85-100)</option>
+                    <option value="4">A (70-84)</option>
+                    <option value="3.7">A- (65-69)</option>
+                    <option value="3.3">B+ (60-64)</option>
+                    <option value="3">B (55-59)</option>
+                    <option value="2.7">B- (50-54)</option>
+                    <option value="2">C+ (45-49)</option>
+                    <option value="2">C (40-44)</option>
+                    <option value="1.7">C- (35-39)</option>
+                    <option value="1.3">D+ (30-34)</option>
+                    <option value="1">D (25-29)</option>
+                    <option value="0">E (0-24)</option>
+                </select>
+            </td>
+            <td class="gpv"></td>
+            <td class="gpaPoints"></td>
+        </tr>
+        <tr>
+            <td>S4</td>
+            <td>IT4306</td>
+            <td>Information Technology Project Management</td>
+            <td class="credits">3</td>
+            <td> 
+                <select class="year2">
+                    <option value="4">A+ (85-100)</option>
+                    <option value="4">A (70-84)</option>
+                    <option value="3.7">A- (65-69)</option>
+                    <option value="3.3">B+ (60-64)</option>
+                    <option value="3">B (55-59)</option>
+                    <option value="2.7">B- (50-54)</option>
+                    <option value="2">C+ (45-49)</option>
+                    <option value="2">C (40-44)</option>
+                    <option value="1.7">C- (35-39)</option>
+                    <option value="1.3">D+ (30-34)</option>
+                    <option value="1">D (25-29)</option>
+                    <option value="0">E (0-24)</option>
+                </select>
+            </td>
+            <td class="gpv"></td>
+            <td class="gpaPoints"></td>
+        </tr>
+        <tr>
+            <td>S4</td>
+            <td>IT4406</td>
+            <td>Agile Software Development</td>
+            <td class="credits">4</td>
+            <td> 
+                <select class="year2">
+                    <option value="4">A+ (85-100)</option>
+                    <option value="4">A (70-84)</option>
+                    <option value="3.7">A- (65-69)</option>
+                    <option value="3.3">B+ (60-64)</option>
+                    <option value="3">B (55-59)</option>
+                    <option value="2.7">B- (50-54)</option>
+                    <option value="2">C+ (45-49)</option>
+                    <option value="2">C (40-44)</option>
+                    <option value="1.7">C- (35-39)</option>
+                    <option value="1.3">D+ (30-34)</option>
+                    <option value="1">D (25-29)</option>
+                    <option value="0">E (0-24)</option>
+                </select>
+            </td>
+            <td class="gpv"></td>
+            <td class="gpaPoints"></td>
+        </tr>
+        <tr>
+            <td>S4</td>
+            <td>IT4506</td>
+            <td>Computer Networks</td>
+            <td class="credits">3</td>
+            <td> 
+                <select class="year2">
+                    <option value="4">A+ (85-100)</option>
+                    <option value="4">A (70-84)</option>
+                    <option value="3.7">A- (65-69)</option>
+                    <option value="3.3">B+ (60-64)</option>
+                    <option value="3">B (55-59)</option>
+                    <option value="2.7">B- (50-54)</option>
+                    <option value="2">C+ (45-49)</option>
+                    <option value="2">C (40-44)</option>
+                    <option value="1.7">C- (35-39)</option>
+                    <option value="1.3">D+ (30-34)</option>
+                    <option value="1">D (25-29)</option>
+                    <option value="0">E (0-24)</option>
+                </select>
+            </td>
+            <td class="gpv"></td>
+            <td class="gpaPoints"></td>
+        </tr>
+    </tbody>
+</table>
+<!-- LEVEL III -->
+<table id="YearThreeTable">
+    <thead>
+        <tr>
+            <th>Semester</th>
+            <th>Code</th>
+            <th>Name</th>
+            <th>GPA Credits</th>
+            <th>Grade</th>
+            <th>Grade Point Value (GPV)</th>
+            <th>GPA Points (GPV*GPA Credits)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>S5</td>
+            <td>EN5106</td>
+            <td>Fundamentals of Management & Entrepreneurship</td>
+            <td class="credits">0</td>
+            <td> 
+                <select class="year3">
+                    <option value="0.0">Pass (40-100)</option>
+                    <option value="0.0">Fail (0-39)</option>
+                </select>
+            </td>
+            <td class="gpv"></td>
+            <td class="gpaPoints"></td>
+        </tr>
+        <tr>
+            <td>S5 & S6</td>
+            <td>IT5106</td>
+            <td>Software Development Project</td>
+            <td class="credits">8</td>
+            <td> 
+                <select class="year3">
+                    <option value="4">A+ (85-100)</option>
+                    <option value="4">A (70-84)</option>
+                    <option value="3.7">A- (65-69)</option>
+                    <option value="3.3">B+ (60-64)</option>
+                    <option value="3">B (55-59)</option>
+                    <option value="2.7">B- (50-54)</option>
+                    <option value="2">C+ (45-49)</option>
+                    <option value="2">C (40-44)</option>
+                    <option value="1.7">C- (35-39)</option>
+                    <option value="1.3">D+ (30-34)</option>
+                    <option value="1">D (25-29)</option>
+                    <option value="0">E (0-24)</option>
+                </select>
+            </td>
+            <td class="gpv" ></td>
+            <td class="gpaPoints"></td>
+        </tr>
+        <tr>
+            <td>S5</td>
+            <td>IT5206</td>
+            <td>Professional Practice</td>
+            <td class="credits">3</td>
+            <td> 
+                <select class="year3">
+                    <option value="4">A+ (85-100)</option>
+                    <option value="4">A (70-84)</option>
+                    <option value="3.7">A- (65-69)</option>
+                    <option value="3.3">B+ (60-64)</option>
+                    <option value="3">B (55-59)</option>
+                    <option value="2.7">B- (50-54)</option>
+                    <option value="2">C+ (45-49)</option>
+                    <option value="2">C (40-44)</option>
+                    <option value="1.7">C- (35-39)</option>
+                    <option value="1.3">D+ (30-34)</option>
+                    <option value="1">D (25-29)</option>
+                    <option value="0">E (0-24)</option>
+                </select>
+            </td>
+            <td class="gpv"></td>
+            <td class="gpaPoints"></td>
+        </tr>
+        <tr>
+            <td>S5</td>
+            <td>IT5306</td>
+            <td>Principles of Information Security</td>
+            <td class="credits">3</td>
+            <td> 
+                <select class="year3">
+                    <option value="4">A+ (85-100)</option>
+                    <option value="4">A (70-84)</option>
+                    <option value="3.7">A- (65-69)</option>
+                    <option value="3.3">B+ (60-64)</option>
+                    <option value="3">B (55-59)</option>
+                    <option value="2.7">B- (50-54)</option>
+                    <option value="2">C+ (45-49)</option>
+                    <option value="2">C (40-44)</option>
+                    <option value="1.7">C- (35-39)</option>
+                    <option value="1.3">D+ (30-34)</option>
+                    <option value="1">D (25-29)</option>
+                    <option value="0">E (0-24)</option>
+                </select>
+            </td>
+            <td class="gpv"></td>
+            <td class="gpaPoints"></td>
+        </tr>
+        <tr>
+            <td>S5</td>
+            <td>IT5406</td>
+            <td>Systems & Network Administration</td>
+            <td class="credits">3</td>
+            <td> 
+                <select class="year3">
+                    <option value="4">A+ (85-100)</option>
+                    <option value="4">A (70-84)</option>
+                    <option value="3.7">A- (65-69)</option>
+                    <option value="3.3">B+ (60-64)</option>
+                    <option value="3">B (55-59)</option>
+                    <option value="2.7">B- (50-54)</option>
+                    <option value="2">C+ (45-49)</option>
+                    <option value="2">C (40-44)</option>
+                    <option value="1.7">C- (35-39)</option>
+                    <option value="1.3">D+ (30-34)</option>
+                    <option value="1">D (25-29)</option>
+                    <option value="0">E (0-24)</option>
+                </select>
+            </td>
+            <td class="gpv"></td>
+            <td class="gpaPoints"></td>
+        </tr>
+        <tr>
+            <td>S5</td>
+            <td>IT5506</td>
+            <td>Mathematics for Computing II</td>
+            <td class="credits">3</td>
+            <td> 
+                <select class="year3">
+                    <option value="4">A+ (85-100)</option>
+                    <option value="4">A (70-84)</option>
+                    <option value="3.7">A- (65-69)</option>
+                    <option value="3.3">B+ (60-64)</option>
+                    <option value="3">B (55-59)</option>
+                    <option value="2.7">B- (50-54)</option>
+                    <option value="2">C+ (45-49)</option>
+                    <option value="2">C (40-44)</option>
+                    <option value="1.7">C- (35-39)</option>
+                    <option value="1.3">D+ (30-34)</option>
+                    <option value="1">D (25-29)</option>
+                    <option value="0">E (0-24)</option>
+                </select>
+            </td>
+            <td class="gpv"></td>
+            <td class="gpaPoints"></td>
+        </tr>
+        <tr>
+            <td>S6</td>
+            <td>EN6106</td>
+            <td>Emerging Topics in Information Technology</td>
+            <td class="credits">0</td>
+            <td> 
+                <select class="year3">
+                    <option value="0.0">Pass (40-100)</option>
+                    <option value="0.0">Fail (0-39)</option>
+                </select>
+            </td>
+            <td class="gpv"></td>
+            <td class="gpaPoints"></td>
+        </tr>
+        <tr>
+            <td>S6</td>
+            <td>IT6206</td>
+            <td>Software Quality Assurance</td>
+            <td class="credits">3</td>
+            <td> 
+                <select class="year3">
+                    <option value="4">A+ (85-100)</option>
+                    <option value="4">A (70-84)</option>
+                    <option value="3.7">A- (65-69)</option>
+                    <option value="3.3">B+ (60-64)</option>
+                    <option value="3">B (55-59)</option>
+                    <option value="2.7">B- (50-54)</option>
+                    <option value="2">C+ (45-49)</option>
+                    <option value="2">C (40-44)</option>
+                    <option value="1.7">C- (35-39)</option>
+                    <option value="1.3">D+ (30-34)</option>
+                    <option value="1">D (25-29)</option>
+                    <option value="0">E (0-24)</option>
+                </select>
+            </td>
+            <td class="gpv"></td>
+            <td class="gpaPoints"></td>
+        </tr>
+        <tr>
+            <td>S6</td>
+            <td>IT6306</td>
+            <td>Mobile Application Development</td>
+            <td class="credits">4</td>
+            <td> 
+                <select class="year3">
+                    <option value="4">A+ (85-100)</option>
+                    <option value="4">A (70-84)</option>
+                    <option value="3.7">A- (65-69)</option>
+                    <option value="3.3">B+ (60-64)</option>
+                    <option value="3">B (55-59)</option>
+                    <option value="2.7">B- (50-54)</option>
+                    <option value="2">C+ (45-49)</option>
+                    <option value="2">C (40-44)</option>
+                    <option value="1.7">C- (35-39)</option>
+                    <option value="1.3">D+ (30-34)</option>
+                    <option value="1">D (25-29)</option>
+                    <option value="0">E (0-24)</option>
+                </select>
+            </td>
+            <td class="gpv"></td>
+            <td class="gpaPoints"></td>
+        </tr>
+        <tr>
+            <td>S6</td>
+            <td>IT6406</td>
+            <td>Network Security and Audit</td>
+            <td class="credits">3</td>
+            <td> 
+                <select class="year3">
+                    <option value="4">A+ (85-100)</option>
+                    <option value="4">A (70-84)</option>
+                    <option value="3.7">A- (65-69)</option>
+                    <option value="3.3">B+ (60-64)</option>
+                    <option value="3">B (55-59)</option>
+                    <option value="2.7">B- (50-54)</option>
+                    <option value="2">C+ (45-49)</option>
+                    <option value="2">C (40-44)</option>
+                    <option value="1.7">C- (35-39)</option>
+                    <option value="1.3">D+ (30-34)</option>
+                    <option value="1">D (25-29)</option>
+                    <option value="0">E (0-24)</option>
+                </select>
+            </td>
+            <td class="gpv"></td>
+            <td class="gpaPoints"></td>
+        </tr>
+        <tr>
+            <td>S6</td>
+            <td>IT6506</td>
+            <td>e-Business Technologies</td>
+            <td class="credits">3</td>
+            <td> 
+                <select class="year3">
+                    <option value="4">A+ (85-100)</option>
+                    <option value="4">A (70-84)</option>
+                    <option value="3.7">A- (65-69)</option>
+                    <option value="3.3">B+ (60-64)</option>
+                    <option value="3">B (55-59)</option>
+                    <option value="2.7">B- (50-54)</option>
+                    <option value="2">C+ (45-49)</option>
+                    <option value="2">C (40-44)</option>
+                    <option value="1.7">C- (35-39)</option>
+                    <option value="1.3">D+ (30-34)</option>
+                    <option value="1">D (25-29)</option>
+                    <option value="0">E (0-24)</option>
+                </select>
+            </td>
+            <td class="gpv"></td>
+            <td class="gpaPoints"></td>
+        </tr>
+    </tbody>
+</table>
 <section id="table-container">
-    <div>
-        <button type="button" onclick="yearI()" id="btn1">Year I</button>
-        <button type="button" onclick="yearII()" id="btn2">Year II</button>
-        <button type="button" onclick="yearIII()" id="btn3">Year III</button>
-    </div>
-    <!-- LEVEL I -->
-    <table id="YearOneTable">
-        <thead>
-            <tr>
-                <th>Semester</th>
-                <th>Code</th>
-                <th>Name</th>
-                <th>GPA Credits</th>
-                <th>Grade</th>
-                <th>Grade Point Value (GPV)</th>
-                <th>GPA Points (GPV*GPA Credits)</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>S1</td>
-                <td>IT1106</td>
-                <td>Information Systems</td>
-                <td class="credits">4</td>
-                <td> 
-                    <select class="year1">
-                        <option value="4">A+ (85-100)</option>
-                        <option value="4">A (70-84)</option>
-                        <option value="3.7">A- (65-69)</option>
-                        <option value="3.3">B+ (60-64)</option>
-                        <option value="3">B (55-59)</option>
-                        <option value="2.7">B- (50-54)</option>
-                        <option value="2">C+ (45-49)</option>
-                        <option value="2">C (40-44)</option>
-                        <option value="1.7">C- (35-39)</option>
-                        <option value="1.3">D+ (30-34)</option>
-                        <option value="1">D (25-29)</option>
-                        <option value="0">E (0-24)</option>
-                    </select>
-                </td>
-                <td class="gpv"></td>
-                <td class="gpaPoints"></td>
-            </tr>
-            <tr>
-                <td>S1</td>
-                <td>IT1206</td>
-                <td>Computer Systems</td>
-                <td class="credits">3</td>
-                <td> 
-                    <select class="year1">
-                        <option value="4">A+ (85-100)</option>
-                        <option value="4">A (70-84)</option>
-                        <option value="3.7">A- (65-69)</option>
-                        <option value="3.3">B+ (60-64)</option>
-                        <option value="3">B (55-59)</option>
-                        <option value="2.7">B- (50-54)</option>
-                        <option value="2">C+ (45-49)</option>
-                        <option value="2">C (40-44)</option>
-                        <option value="1.7">C- (35-39)</option>
-                        <option value="1.3">D+ (30-34)</option>
-                        <option value="1">D (25-29)</option>
-                        <option value="0">E (0-24)</option>
-                    </select>
-                </td>
-                <td class="gpv"></td>
-                <td class="gpaPoints"></td>
-            </tr>
-            <tr>
-                <td>S1</td>
-                <td>IT1306</td>
-                <td>Free and Open Source Software for Personal Computing</td>
-                <td class="credits">3</td>
-                <td> 
-                    <select class="year1">
-                        <option value="4">A+ (85-100)</option>
-                        <option value="4">A (70-84)</option>
-                        <option value="3.7">A- (65-69)</option>
-                        <option value="3.3">B+ (60-64)</option>
-                        <option value="3">B (55-59)</option>
-                        <option value="2.7">B- (50-54)</option>
-                        <option value="2">C+ (45-49)</option>
-                        <option value="2">C (40-44)</option>
-                        <option value="1.7">C- (35-39)</option>
-                        <option value="1.3">D+ (30-34)</option>
-                        <option value="1">D (25-29)</option>
-                        <option value="0">E (0-24)</option>
-                    </select>
-                </td>
-                <td class="gpv"></td>
-                <td class="gpaPoints"></td>
-            </tr>
-            <tr>
-                <td>S1</td>
-                <td>IT1406</td>
-                <td>Introduction to Programming</td>
-                <td class="credits">4</td>
-                <td> 
-                    <select class="year1">
-                        <option value="4">A+ (85-100)</option>
-                        <option value="4">A (70-84)</option>
-                        <option value="3.7">A- (65-69)</option>
-                        <option value="3.3">B+ (60-64)</option>
-                        <option value="3">B (55-59)</option>
-                        <option value="2.7">B- (50-54)</option>
-                        <option value="2">C+ (45-49)</option>
-                        <option value="2">C (40-44)</option>
-                        <option value="1.7">C- (35-39)</option>
-                        <option value="1.3">D+ (30-34)</option>
-                        <option value="1">D (25-29)</option>
-                        <option value="0">E (0-24)</option>
-                    </select>
-                </td>
-                <td class="gpv"></td>
-                <td class="gpaPoints"></td>
-            </tr>
-            <tr>
-                <td>S1</td>
-                <td>IT1506</td>
-                <td>Fundamentals of Mathematics</td>
-                <td class="credits">1</td>
-                <td> 
-                    <select class="year1">
-                        <option value="4">A+ (85-100)</option>
-                        <option value="4">A (70-84)</option>
-                        <option value="3.7">A- (65-69)</option>
-                        <option value="3.3">B+ (60-64)</option>
-                        <option value="3">B (55-59)</option>
-                        <option value="2.7">B- (50-54)</option>
-                        <option value="2">C+ (45-49)</option>
-                        <option value="2">C (40-44)</option>
-                        <option value="1.7">C- (35-39)</option>
-                        <option value="1.3">D+ (30-34)</option>
-                        <option value="1">D (25-29)</option>
-                        <option value="0">E (0-24)</option>
-                    </select>
-                </td>
-                <td class="gpv"></td>
-                <td class="gpaPoints"></td>
-            </tr>
-            <tr>
-                <td>S2</td>
-                <td>EN2106</td>
-                <td>Communication Skills I</td>
-                <td class="credits">0</td>
-                <td> 
-                    <select class="year1">
-                        <option value="0.0">Pass (40-100)</option>
-                        <option value="0.0">Fail (0-39)</option>
-                    </select>
-                </td>
-                <td class="gpv"></td>
-                <td class="gpaPoints"></td>
-            </tr>
-            <tr>
-                <td>S2</td>
-                <td>IT2106</td>
-                <td>Mathematics for Computing I</td>
-                <td class="credits">3</td>
-                <td> 
-                    <select class="year1">
-                        <option value="4">A+ (85-100)</option>
-                        <option value="4">A (70-84)</option>
-                        <option value="3.7">A- (65-69)</option>
-                        <option value="3.3">B+ (60-64)</option>
-                        <option value="3">B (55-59)</option>
-                        <option value="2.7">B- (50-54)</option>
-                        <option value="2">C+ (45-49)</option>
-                        <option value="2">C (40-44)</option>
-                        <option value="1.7">C- (35-39)</option>
-                        <option value="1.3">D+ (30-34)</option>
-                        <option value="1">D (25-29)</option>
-                        <option value="0">E (0-24)</option>
-                    </select>
-                </td>
-                <td class="gpv"></td>
-                <td class="gpaPoints"></td>
-            </tr>
-            <tr>
-                <td>S2</td>
-                <td>IT2206</td>
-                <td>Fundamentals of Software Engineering</td>
-                <td class="credits">4</td>
-                <td> 
-                    <select class="year1">
-                        <option value="4">A+ (85-100)</option>
-                        <option value="4">A (70-84)</option>
-                        <option value="3.7">A- (65-69)</option>
-                        <option value="3.3">B+ (60-64)</option>
-                        <option value="3">B (55-59)</option>
-                        <option value="2.7">B- (50-54)</option>
-                        <option value="2">C+ (45-49)</option>
-                        <option value="2">C (40-44)</option>
-                        <option value="1.7">C- (35-39)</option>
-                        <option value="1.3">D+ (30-34)</option>
-                        <option value="1">D (25-29)</option>
-                        <option value="0">E (0-24)</option>
-                    </select>
-                </td>
-                <td class="gpv"></td>
-                <td class="gpaPoints"></td>
-            </tr>
-            <tr>
-                <td>S2</td>
-                <td>IT2306</td>
-                <td>Database Systems</td>
-                <td class="credits">4</td>
-                <td> 
-                    <select class="year1">
-                        <option value="4">A+ (85-100)</option>
-                        <option value="4">A (70-84)</option>
-                        <option value="3.7">A- (65-69)</option>
-                        <option value="3.3">B+ (60-64)</option>
-                        <option value="3">B (55-59)</option>
-                        <option value="2.7">B- (50-54)</option>
-                        <option value="2">C+ (45-49)</option>
-                        <option value="2">C (40-44)</option>
-                        <option value="1.7">C- (35-39)</option>
-                        <option value="1.3">D+ (30-34)</option>
-                        <option value="1">D (25-29)</option>
-                        <option value="0">E (0-24)</option>
-                    </select>
-                </td>
-                <td class="gpv"></td>
-                <td class="gpaPoints"></td>
-            </tr>
-            <tr>
-                <td>S2</td>
-                <td>IT2406</td>
-                <td>Web Application Development I</td>
-                <td class="credits">4</td>
-                <td> 
-                    <select class="year1">
-                        <option value="4">A+ (85-100)</option>
-                        <option value="4">A (70-84)</option>
-                        <option value="3.7">A- (65-69)</option>
-                        <option value="3.3">B+ (60-64)</option>
-                        <option value="3">B (55-59)</option>
-                        <option value="2.7">B- (50-54)</option>
-                        <option value="2">C+ (45-49)</option>
-                        <option value="2">C (40-44)</option>
-                        <option value="1.7">C- (35-39)</option>
-                        <option value="1.3">D+ (30-34)</option>
-                        <option value="1">D (25-29)</option>
-                        <option value="0">E (0-24)</option>
-                    </select>
-                </td>
-                <td class="gpv"></td>
-                <td class="gpaPoints"></td>
-            </tr>
-        </tbody>
-    </table>
-    <!-- LEVEL II -->
-    <table id="YearTwoTable">
-        <thead>
-            <tr>
-                <th>Semester</th>
-                <th>Code</th>
-                <th>Name</th>
-                <th>GPA Credits</th>
-                <th>Grade</th>
-                <th>Grade Point Value (GPV)</th>
-                <th>GPA Points (GPV*GPA Credits)</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>S3</td>
-                <td>EN3106</td>
-                <td>Communication Skills II</td>
-                <td class="credits">0</td>
-                <td> 
-                    <select class="year2">
-                        <option value="0.0">Pass (40-100)</option>
-                        <option value="0.0">Fail (0-39)</option>
-                    </select>
-                </td>
-                <td class="gpv"></td>
-                <td class="gpaPoints"></td>
-            </tr>
-            <tr>
-                <td>S3</td>
-                <td>IT3106</td>
-                <td>Object Oriented Analysis & Design</td>
-                <td class="credits">3</td>
-                <td> 
-                    <select class="year2">
-                        <option value="4">A+ (85-100)</option>
-                        <option value="4">A (70-84)</option>
-                        <option value="3.7">A- (65-69)</option>
-                        <option value="3.3">B+ (60-64)</option>
-                        <option value="3">B (55-59)</option>
-                        <option value="2.7">B- (50-54)</option>
-                        <option value="2">C+ (45-49)</option>
-                        <option value="2">C (40-44)</option>
-                        <option value="1.7">C- (35-39)</option>
-                        <option value="1.3">D+ (30-34)</option>
-                        <option value="1">D (25-29)</option>
-                        <option value="0">E (0-24)</option>
-                    </select>
-                </td>
-                <td class="gpv"></td>
-                <td class="gpaPoints"></td>
-            </tr>
-            <tr>
-                <td>S3</td>
-                <td>IT3206</td>
-                <td>Data Structures and Algorithms</td>
-                <td class="credits">3</td>
-                <td> 
-                    <select class="year2">
-                        <option value="4">A+ (85-100)</option>
-                        <option value="4">A (70-84)</option>
-                        <option value="3.7">A- (65-69)</option>
-                        <option value="3.3">B+ (60-64)</option>
-                        <option value="3">B (55-59)</option>
-                        <option value="2.7">B- (50-54)</option>
-                        <option value="2">C+ (45-49)</option>
-                        <option value="2">C (40-44)</option>
-                        <option value="1.7">C- (35-39)</option>
-                        <option value="1.3">D+ (30-34)</option>
-                        <option value="1">D (25-29)</option>
-                        <option value="0">E (0-24)</option>
-                    </select>
-                </td>
-                <td class="gpv"></td>
-                <td class="gpaPoints"></td>
-            </tr>
-            <tr>
-                <td>S3</td>
-                <td>IT3306</td>
-                <td>Data Management Systems</td>
-                <td class="credits">3</td>
-                <td> 
-                    <select class="year2">
-                        <option value="4">A+ (85-100)</option>
-                        <option value="4">A (70-84)</option>
-                        <option value="3.7">A- (65-69)</option>
-                        <option value="3.3">B+ (60-64)</option>
-                        <option value="3">B (55-59)</option>
-                        <option value="2.7">B- (50-54)</option>
-                        <option value="2">C+ (45-49)</option>
-                        <option value="2">C (40-44)</option>
-                        <option value="1.7">C- (35-39)</option>
-                        <option value="1.3">D+ (30-34)</option>
-                        <option value="1">D (25-29)</option>
-                        <option value="0">E (0-24)</option>
-                    </select>
-                </td>
-                <td class="gpv"></td>
-                <td class="gpaPoints"></td>
-            </tr>
-            <tr>
-                <td>S3</td>
-                <td>IT3406</td>
-                <td>Web Application Development II</td>
-                <td class="credits">4</td>
-                <td> 
-                    <select class="year2">
-                        <option value="4">A+ (85-100)</option>
-                        <option value="4">A (70-84)</option>
-                        <option value="3.7">A- (65-69)</option>
-                        <option value="3.3">B+ (60-64)</option>
-                        <option value="3">B (55-59)</option>
-                        <option value="2.7">B- (50-54)</option>
-                        <option value="2">C+ (45-49)</option>
-                        <option value="2">C (40-44)</option>
-                        <option value="1.7">C- (35-39)</option>
-                        <option value="1.3">D+ (30-34)</option>
-                        <option value="1">D (25-29)</option>
-                        <option value="0">E (0-24)</option>
-                    </select>
-                </td>
-                <td class="gpv"></td>
-                <td class="gpaPoints"></td>
-            </tr>
-            <tr>
-                <td>S4</td>
-                <td>IT4106</td>
-                <td>User Experience Design</td>
-                <td class="credits">3</td>
-                <td> 
-                    <select class="year2">
-                        <option value="4">A+ (85-100)</option>
-                        <option value="4">A (70-84)</option>
-                        <option value="3.7">A- (65-69)</option>
-                        <option value="3.3">B+ (60-64)</option>
-                        <option value="3">B (55-59)</option>
-                        <option value="2.7">B- (50-54)</option>
-                        <option value="2">C+ (45-49)</option>
-                        <option value="2">C (40-44)</option>
-                        <option value="1.7">C- (35-39)</option>
-                        <option value="1.3">D+ (30-34)</option>
-                        <option value="1">D (25-29)</option>
-                        <option value="0">E (0-24)</option>
-                    </select>
-                </td>
-                <td class="gpv"></td>
-                <td class="gpaPoints"></td>
-            </tr>
-            <tr>
-                <td>S4</td>
-                <td>IT4206</td>
-                <td>Enterprise Application Development</td>
-                <td class="credits">4</td>
-                <td> 
-                    <select class="year2">
-                        <option value="4">A+ (85-100)</option>
-                        <option value="4">A (70-84)</option>
-                        <option value="3.7">A- (65-69)</option>
-                        <option value="3.3">B+ (60-64)</option>
-                        <option value="3">B (55-59)</option>
-                        <option value="2.7">B- (50-54)</option>
-                        <option value="2">C+ (45-49)</option>
-                        <option value="2">C (40-44)</option>
-                        <option value="1.7">C- (35-39)</option>
-                        <option value="1.3">D+ (30-34)</option>
-                        <option value="1">D (25-29)</option>
-                        <option value="0">E (0-24)</option>
-                    </select>
-                </td>
-                <td class="gpv"></td>
-                <td class="gpaPoints"></td>
-            </tr>
-            <tr>
-                <td>S4</td>
-                <td>IT4306</td>
-                <td>Information Technology Project Management</td>
-                <td class="credits">3</td>
-                <td> 
-                    <select class="year2">
-                        <option value="4">A+ (85-100)</option>
-                        <option value="4">A (70-84)</option>
-                        <option value="3.7">A- (65-69)</option>
-                        <option value="3.3">B+ (60-64)</option>
-                        <option value="3">B (55-59)</option>
-                        <option value="2.7">B- (50-54)</option>
-                        <option value="2">C+ (45-49)</option>
-                        <option value="2">C (40-44)</option>
-                        <option value="1.7">C- (35-39)</option>
-                        <option value="1.3">D+ (30-34)</option>
-                        <option value="1">D (25-29)</option>
-                        <option value="0">E (0-24)</option>
-                    </select>
-                </td>
-                <td class="gpv"></td>
-                <td class="gpaPoints"></td>
-            </tr>
-            <tr>
-                <td>S4</td>
-                <td>IT4406</td>
-                <td>Agile Software Development</td>
-                <td class="credits">4</td>
-                <td> 
-                    <select class="year2">
-                        <option value="4">A+ (85-100)</option>
-                        <option value="4">A (70-84)</option>
-                        <option value="3.7">A- (65-69)</option>
-                        <option value="3.3">B+ (60-64)</option>
-                        <option value="3">B (55-59)</option>
-                        <option value="2.7">B- (50-54)</option>
-                        <option value="2">C+ (45-49)</option>
-                        <option value="2">C (40-44)</option>
-                        <option value="1.7">C- (35-39)</option>
-                        <option value="1.3">D+ (30-34)</option>
-                        <option value="1">D (25-29)</option>
-                        <option value="0">E (0-24)</option>
-                    </select>
-                </td>
-                <td class="gpv"></td>
-                <td class="gpaPoints"></td>
-            </tr>
-            <tr>
-                <td>S4</td>
-                <td>IT4506</td>
-                <td>Computer Networks</td>
-                <td class="credits">3</td>
-                <td> 
-                    <select class="year2">
-                        <option value="4">A+ (85-100)</option>
-                        <option value="4">A (70-84)</option>
-                        <option value="3.7">A- (65-69)</option>
-                        <option value="3.3">B+ (60-64)</option>
-                        <option value="3">B (55-59)</option>
-                        <option value="2.7">B- (50-54)</option>
-                        <option value="2">C+ (45-49)</option>
-                        <option value="2">C (40-44)</option>
-                        <option value="1.7">C- (35-39)</option>
-                        <option value="1.3">D+ (30-34)</option>
-                        <option value="1">D (25-29)</option>
-                        <option value="0">E (0-24)</option>
-                    </select>
-                </td>
-                <td class="gpv"></td>
-                <td class="gpaPoints"></td>
-            </tr>
-        </tbody>
-    </table>
-    <!-- LEVEL III -->
-    <table id="YearThreeTable">
-        <thead>
-            <tr>
-                <th>Semester</th>
-                <th>Code</th>
-                <th>Name</th>
-                <th>GPA Credits</th>
-                <th>Grade</th>
-                <th>Grade Point Value (GPV)</th>
-                <th>GPA Points (GPV*GPA Credits)</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>S5</td>
-                <td>EN5106</td>
-                <td>Fundamentals of Management & Entrepreneurship</td>
-                <td class="credits">0</td>
-                <td> 
-                    <select class="year3">
-                        <option value="0.0">Pass (40-100)</option>
-                        <option value="0.0">Fail (0-39)</option>
-                    </select>
-                </td>
-                <td class="gpv"></td>
-                <td class="gpaPoints"></td>
-            </tr>
-            <tr>
-                <td>S5 & S6</td>
-                <td>IT5106</td>
-                <td>Software Development Project</td>
-                <td class="credits">8</td>
-                <td> 
-                    <select class="year3">
-                        <option value="4">A+ (85-100)</option>
-                        <option value="4">A (70-84)</option>
-                        <option value="3.7">A- (65-69)</option>
-                        <option value="3.3">B+ (60-64)</option>
-                        <option value="3">B (55-59)</option>
-                        <option value="2.7">B- (50-54)</option>
-                        <option value="2">C+ (45-49)</option>
-                        <option value="2">C (40-44)</option>
-                        <option value="1.7">C- (35-39)</option>
-                        <option value="1.3">D+ (30-34)</option>
-                        <option value="1">D (25-29)</option>
-                        <option value="0">E (0-24)</option>
-                    </select>
-                </td>
-                <td class="gpv" ></td>
-                <td class="gpaPoints"></td>
-            </tr>
-            <tr>
-                <td>S5</td>
-                <td>IT5206</td>
-                <td>Professional Practice</td>
-                <td class="credits">3</td>
-                <td> 
-                    <select class="year3">
-                        <option value="4">A+ (85-100)</option>
-                        <option value="4">A (70-84)</option>
-                        <option value="3.7">A- (65-69)</option>
-                        <option value="3.3">B+ (60-64)</option>
-                        <option value="3">B (55-59)</option>
-                        <option value="2.7">B- (50-54)</option>
-                        <option value="2">C+ (45-49)</option>
-                        <option value="2">C (40-44)</option>
-                        <option value="1.7">C- (35-39)</option>
-                        <option value="1.3">D+ (30-34)</option>
-                        <option value="1">D (25-29)</option>
-                        <option value="0">E (0-24)</option>
-                    </select>
-                </td>
-                <td class="gpv"></td>
-                <td class="gpaPoints"></td>
-            </tr>
-            <tr>
-                <td>S5</td>
-                <td>IT5306</td>
-                <td>Principles of Information Security</td>
-                <td class="credits">3</td>
-                <td> 
-                    <select class="year3">
-                        <option value="4">A+ (85-100)</option>
-                        <option value="4">A (70-84)</option>
-                        <option value="3.7">A- (65-69)</option>
-                        <option value="3.3">B+ (60-64)</option>
-                        <option value="3">B (55-59)</option>
-                        <option value="2.7">B- (50-54)</option>
-                        <option value="2">C+ (45-49)</option>
-                        <option value="2">C (40-44)</option>
-                        <option value="1.7">C- (35-39)</option>
-                        <option value="1.3">D+ (30-34)</option>
-                        <option value="1">D (25-29)</option>
-                        <option value="0">E (0-24)</option>
-                    </select>
-                </td>
-                <td class="gpv"></td>
-                <td class="gpaPoints"></td>
-            </tr>
-            <tr>
-                <td>S5</td>
-                <td>IT5406</td>
-                <td>Systems & Network Administration</td>
-                <td class="credits">3</td>
-                <td> 
-                    <select class="year3">
-                        <option value="4">A+ (85-100)</option>
-                        <option value="4">A (70-84)</option>
-                        <option value="3.7">A- (65-69)</option>
-                        <option value="3.3">B+ (60-64)</option>
-                        <option value="3">B (55-59)</option>
-                        <option value="2.7">B- (50-54)</option>
-                        <option value="2">C+ (45-49)</option>
-                        <option value="2">C (40-44)</option>
-                        <option value="1.7">C- (35-39)</option>
-                        <option value="1.3">D+ (30-34)</option>
-                        <option value="1">D (25-29)</option>
-                        <option value="0">E (0-24)</option>
-                    </select>
-                </td>
-                <td class="gpv"></td>
-                <td class="gpaPoints"></td>
-            </tr>
-            <tr>
-                <td>S5</td>
-                <td>IT5506</td>
-                <td>Mathematics for Computing II</td>
-                <td class="credits">3</td>
-                <td> 
-                    <select class="year3">
-                        <option value="4">A+ (85-100)</option>
-                        <option value="4">A (70-84)</option>
-                        <option value="3.7">A- (65-69)</option>
-                        <option value="3.3">B+ (60-64)</option>
-                        <option value="3">B (55-59)</option>
-                        <option value="2.7">B- (50-54)</option>
-                        <option value="2">C+ (45-49)</option>
-                        <option value="2">C (40-44)</option>
-                        <option value="1.7">C- (35-39)</option>
-                        <option value="1.3">D+ (30-34)</option>
-                        <option value="1">D (25-29)</option>
-                        <option value="0">E (0-24)</option>
-                    </select>
-                </td>
-                <td class="gpv"></td>
-                <td class="gpaPoints"></td>
-            </tr>
-            <tr>
-                <td>S6</td>
-                <td>EN6106</td>
-                <td>Emerging Topics in Information Technology</td>
-                <td class="credits">0</td>
-                <td> 
-                    <select class="year3">
-                        <option value="0.0">Pass (40-100)</option>
-                        <option value="0.0">Fail (0-39)</option>
-                    </select>
-                </td>
-                <td class="gpv"></td>
-                <td class="gpaPoints"></td>
-            </tr>
-            <tr>
-                <td>S6</td>
-                <td>IT6206</td>
-                <td>Software Quality Assurance</td>
-                <td class="credits">3</td>
-                <td> 
-                    <select class="year3">
-                        <option value="4">A+ (85-100)</option>
-                        <option value="4">A (70-84)</option>
-                        <option value="3.7">A- (65-69)</option>
-                        <option value="3.3">B+ (60-64)</option>
-                        <option value="3">B (55-59)</option>
-                        <option value="2.7">B- (50-54)</option>
-                        <option value="2">C+ (45-49)</option>
-                        <option value="2">C (40-44)</option>
-                        <option value="1.7">C- (35-39)</option>
-                        <option value="1.3">D+ (30-34)</option>
-                        <option value="1">D (25-29)</option>
-                        <option value="0">E (0-24)</option>
-                    </select>
-                </td>
-                <td class="gpv"></td>
-                <td class="gpaPoints"></td>
-            </tr>
-            <tr>
-                <td>S6</td>
-                <td>IT6306</td>
-                <td>Mobile Application Development</td>
-                <td class="credits">4</td>
-                <td> 
-                    <select class="year3">
-                        <option value="4">A+ (85-100)</option>
-                        <option value="4">A (70-84)</option>
-                        <option value="3.7">A- (65-69)</option>
-                        <option value="3.3">B+ (60-64)</option>
-                        <option value="3">B (55-59)</option>
-                        <option value="2.7">B- (50-54)</option>
-                        <option value="2">C+ (45-49)</option>
-                        <option value="2">C (40-44)</option>
-                        <option value="1.7">C- (35-39)</option>
-                        <option value="1.3">D+ (30-34)</option>
-                        <option value="1">D (25-29)</option>
-                        <option value="0">E (0-24)</option>
-                    </select>
-                </td>
-                <td class="gpv"></td>
-                <td class="gpaPoints"></td>
-            </tr>
-            <tr>
-                <td>S6</td>
-                <td>IT6406</td>
-                <td>Network Security and Audit</td>
-                <td class="credits">3</td>
-                <td> 
-                    <select class="year3">
-                        <option value="4">A+ (85-100)</option>
-                        <option value="4">A (70-84)</option>
-                        <option value="3.7">A- (65-69)</option>
-                        <option value="3.3">B+ (60-64)</option>
-                        <option value="3">B (55-59)</option>
-                        <option value="2.7">B- (50-54)</option>
-                        <option value="2">C+ (45-49)</option>
-                        <option value="2">C (40-44)</option>
-                        <option value="1.7">C- (35-39)</option>
-                        <option value="1.3">D+ (30-34)</option>
-                        <option value="1">D (25-29)</option>
-                        <option value="0">E (0-24)</option>
-                    </select>
-                </td>
-                <td class="gpv"></td>
-                <td class="gpaPoints"></td>
-            </tr>
-            <tr>
-                <td>S6</td>
-                <td>IT6506</td>
-                <td>e-Business Technologies</td>
-                <td class="credits">3</td>
-                <td> 
-                    <select class="year3">
-                        <option value="4">A+ (85-100)</option>
-                        <option value="4">A (70-84)</option>
-                        <option value="3.7">A- (65-69)</option>
-                        <option value="3.3">B+ (60-64)</option>
-                        <option value="3">B (55-59)</option>
-                        <option value="2.7">B- (50-54)</option>
-                        <option value="2">C+ (45-49)</option>
-                        <option value="2">C (40-44)</option>
-                        <option value="1.7">C- (35-39)</option>
-                        <option value="1.3">D+ (30-34)</option>
-                        <option value="1">D (25-29)</option>
-                        <option value="0">E (0-24)</option>
-                    </select>
-                </td>
-                <td class="gpv"></td>
-                <td class="gpaPoints"></td>
-            </tr>
-        </tbody>
-    </table>
     <table id="summaryTable">
         <thead>
             <tr>
@@ -813,7 +813,7 @@
             <tr>
                 <td>Total</td>
                 <td>94</td>
-                <td></td>
+                <td id="FinalPassingCredits"></td>
                 <td id="FinalGPV"></td>
                 <td id="FinalGPAPoints"></td>
                 <td id="FinalGPA"></td>

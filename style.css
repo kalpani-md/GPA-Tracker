@@ -11,6 +11,7 @@ header{
     background-position: left top;
     background-repeat: no-repeat;
     background-size: contain;
+    margin-bottom: 5%;
 }
 h1, h2{
     text-align: center;
@@ -21,9 +22,8 @@ button{
     border: none;
     background-color: #fff;
     color: #3a3089;
-    width: 15%;
+    width: 25%;
     padding: 2%;
-    margin-right: 15px;
 }
 button:hover{
     background-color: #ece9ff;
@@ -32,6 +32,7 @@ table{
     border-collapse: collapse;
     text-align: center;
     width: 100%;
+    margin-bottom: 5%;
 }
 table, td, th{
     border: 1px solid #fff;    
@@ -65,9 +66,9 @@ tr:hover{
     text-align: center;
 }
 #gpa-meter{
-    display: block;
-    width: 100%;
+    display: block;    
     height: auto;
+    width: 100%;
 }
 #message{
     padding: 15px 25px;
@@ -122,7 +123,14 @@ tr:hover{
 #YearTwoTable th:nth-child(4),
 #YearTwoTable td:nth-child(4),
 #YearThreeTable th:nth-child(4),
-#YearThreeTable td:nth-child(4){
+#YearThreeTable td:nth-child(4),
+
+#YearOneTable th:nth-child(6),
+#YearOneTable td:nth-child(6),
+#YearTwoTable th:nth-child(6),
+#YearTwoTable td:nth-child(6),
+#YearThreeTable th:nth-child(6),
+#YearThreeTable td:nth-child(6){
     display: none;
 }
 /* Tablets */
@@ -146,17 +154,58 @@ tr:hover{
     #YearTwoTable th:nth-child(4),
     #YearTwoTable td:nth-child(4),
     #YearThreeTable th:nth-child(4),
-    #YearThreeTable td:nth-child(4){
+    #YearThreeTable td:nth-child(4),
+    
+    #YearOneTable th:nth-child(6),
+    #YearOneTable td:nth-child(6),
+    #YearTwoTable th:nth-child(6),
+    #YearTwoTable td:nth-child(6),
+    #YearThreeTable th:nth-child(6),
+    #YearThreeTable td:nth-child(6){
         display: table-cell;
     }
+    #table-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    h1{
+        font-size: 1.9rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+    button{
+        font-size: 1rem;
+    }
+    th, td{
+        font-size: 0.9rem;
+    }
 }
-/* Laptops */
-@media (min-width: 992px) {}
-/* Small laptops */
+@media (min-width: 992px) {
+    h1{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 1.6rem;
+    }
+    p{
+        font-size: 1.05rem;
+    }
+    button{
+        font-size: 1rem;
+    }
+    th, td{
+        font-size: 0.95rem;
+    }
+}
+/* Small laptops 
 @media (min-width: 1024px) {}
-/* Desktops */
+/* Desktops 
 @media (min-width: 1200px) {}
-/* Large desktops */
+/* Large desktops 
 @media (min-width: 1440px) {}
-/* Ultra-wide monitors */
-@media (min-width: 1920px) {}
+/* Ultra-wide monitors 
+@media (min-width: 1920px) {}*/
