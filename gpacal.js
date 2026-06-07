@@ -66,17 +66,26 @@ function setupYear(selectYear, tableId, totalCredits, YearGPVId, YearGPAPointsId
             document.getElementById("FinalGPAPoints").textContent = FinalGPAPoints.toFixed(2);
             document.getElementById("FinalGPA").textContent = FinalGPA.toFixed(2);
 
-            if(FinalGPA>=3.7){
-                document.getElementById("message").textContent = "First Class";
+            const message = document.getElementById("message");
+            if (FinalGPA >= 3.7) {
+                message.textContent = "\u{1F3C6} First Class Honours";
+                message.className = "first-class";
             }
-            else if(FinalGPA>=3.3){
-                document.getElementById("message").textContent = "Second Class Upper Division";
+            else if (FinalGPA >= 3.3) {
+                message.textContent = "\u{1F947} Second Class (Upper Division)";
+                message.className = "second-upper";
             }
-            else if(FinalGPA>=3.0){
-                document.getElementById("message").textContent = "Second Class Lower Division";
+            else if (FinalGPA >= 3.0) {
+                message.textContent = "\u{1F948} Second Class (Lower Division)";
+                message.className = "second-lower";
             }
-            else{
-                document.getElementById("message").textContent = "Try Harder!";
+            else if (FinalGPA >= 2.0) {
+                message.textContent = "\u{1F393} Degree Awarded";
+                message.className = "pass";
+            }
+            else {
+                message.textContent = "\u{1F4DA} Below Graduation Requirement";
+                message.className = "fail";
             }
              
         };
