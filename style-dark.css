@@ -1,0 +1,32 @@
+body.dark-mode{
+    background-color: #1c1b2e;
+    color: #fff;
+}
+.dark-mode h1{
+    color: #fff;
+}
+.dark-mode #mode{
+    color: #fff;
+    background-color: transparent;
+}
+/*
+.dark-mode #btn1:hover, .dark-mode #btn2:hover, .dark-mode #btn3:hover{
+    background-color: #3a3089;
+    color: #fff;
+}*/
+.dark-mode th{
+    background-color: #3a3089;
+    color: white;
+}
+.dark-mode tr{
+    background-color: #2b2944;
+}
+.dark-mode tr:nth-child(even){
+    background-color: #34314f;
+}
+.dark-mode tr:hover{
+    background-color: #47416d;
+}
+.dark-mode td{
+    color: #fff !important;
+}
