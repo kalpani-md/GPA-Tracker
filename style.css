@@ -6,38 +6,34 @@
 body{
     margin: 2%;
 }
+header{
+    background-image: url("logo.png");
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 h1, h2{
     text-align: center;
     color: #3a3089;
 }
-#mode{
-    position: absolute;
-    right: 0;
-    top: 0;
-    padding: 20px;
-    font-size: 25px;
-    border: none;
-    background-color: transparent;
-}
-#mode:hover{
-    transform: scale(1.5);
-}
-#btn1, #btn2, #btn3{
-    display: inline-block;
-    width: 100px;
-    padding: 10px;
-    margin-right: 15px;
+button{
+    display: inline-block;    
     border: none;
     background-color: #fff;
     color: #3a3089;
+    width: 15%;
+    padding: 2%;
+    margin-right: 15px;
 }
-#btn1:hover, #btn2:hover, #btn3:hover{
+button:hover{
     background-color: #ece9ff;
+}
+#table-container{
+    display: flex;
+    flex-direction: column;
 }
 table{
     border-collapse: collapse;
-    width: 100%;
-    margin-bottom: 5%;
     text-align: center;
 }
 table, td, th{
@@ -65,22 +61,31 @@ tr:hover{
 #YearOneTable td:nth-child(3), #YearTwoTable td:nth-child(3), #YearThreeTable td:nth-child(3){
     text-align: left;
 }
-#cont{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-#summaryTable{
-}
 #summaryTable tr:nth-child(4) td{
     font-weight: bolder;
 }
 .gpa-meter-container {
     text-align: center;
-    padding: 30px;
 }
 #gpa-meter{
     display: block;
-    margin-bottom: 20px;
     width: 100%;
     height: auto;
 }
+
+/* Extra small phones */
+@media (min-width: 320px) {}
+/* Large phones */
+@media (min-width: 480px) {}
+/* Tablets */
+@media (min-width: 768px) {}
+/* Laptops */
+@media (min-width: 992px) {}
+/* Small laptops */
+@media (min-width: 1024px) {}
+/* Desktops */
+@media (min-width: 1200px) {}
+/* Large desktops */
+@media (min-width: 1440px) {}
+/* Ultra-wide monitors */
+@media (min-width: 1920px) {}
